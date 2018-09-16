@@ -1,0 +1,84 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+#mainCont {
+	display: grid;
+	background-color: #1F1F1F;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+#mainCont div {
+	margin: auto;
+	width: 50%;
+	font-size: 300%;
+	text-align: center;
+}
+
+#mainCont h1 {
+	border: 3px solid white;
+	font-weight: 200;
+	padding: 10%;
+	box-shadow: 0px 0px 10px 0px #939393, inset 0px 0px 10px 0px #939393;
+}
+
+#mainCont h2 {
+	padding: 5%;
+	letter-spacing: 3px;
+	font-size: 120%;
+	font-weight: 200;
+}
+
+.red, .yel, .blue {
+	height: 300%;
+	width: 3%;
+	position: absolute;
+	top: 0;
+	box-shadow: 0px 0px 4px 3px black;
+}
+
+.red {
+	background-color: #E91E63;
+}
+
+.yel {
+	background-color: #FFEB3B;
+}
+
+.blue {
+	background-color: #2196F3;
+}
+
+.red.one {
+	left: 10%;
+}
+
+.red.two {
+	right: 10%;
+}
+
+.yel.one {
+	left: 14%;
+}
+
+.yel.two {
+	right: 14%;
+}
+
+.blue.one {
+	left: 18%;
+}
+
+.blue.two {
+	right: 18%;
+}
