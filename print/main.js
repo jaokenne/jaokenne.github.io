@@ -1,6 +1,6 @@
 var titleInfo = {
 	name: "Kenneth Jao",
-	caption: "Product Developer",
+	caption: "Engineer and Developer",
 	image: null
 };
 
@@ -48,16 +48,10 @@ var mainContInfo = [
 		icon: "fa-book-open",
 		values: [
 			{
-				name: "International Academy, Bloomfield Hills",
-				caption: "IB Diploma Graduate",
-				date: "2014-2018",
-				desc: "Graduated with 4.14 GPA, Programming Club Leader and Linguistics Club Leader",
-			},
-			{
 				name: "Michigan State University, East Lansing",
-				caption: "Majoring in Computer Engineering and Electrical Engineering",
+				caption: "Majoring in Electrical Engineering, Computer Engineering, and Math",
 				date: "2018-2022",
-				desc: "Currently a freshman"
+				desc: "Cumulative GPA: 3.84"
 			}
 		]
 	},
@@ -66,22 +60,22 @@ var mainContInfo = [
 		icon: "fa-wrench",
 		values: [
 			{
+				name: "Programming",
+				caption: "Software engineering",
+				date: "Since 2014",
+				desc: "Fluent in HTML, CSS, JavaScript and Python. Semi-proficient in C, C++. Can pick up languages and libraries with ease. Full-stack web app developer, experience in bash scripting, and deep learning." 
+			},
+			{
+				name: "System Administrator",
+				caption: "Server setup and maintenance.",
+				date: "Since 2014",
+				desc: "Proficient in maintaining and configuring up servers, and organizing network systems. Can secure implementations of server applications with industry standard cybersecurity."
+			},
+			{
 				name: "Graphic Design",
 				caption: "Interface, logo, and background design",
 				date: "Since 2012",
 				desc: "Proficient with GIMP and Blender. Semi-proficient with Photoshop and After Effects." 
-			},
-			{
-				name: "Programming",
-				caption: "Software engineering",
-				date: "Since 2014",
-				desc: "Fluent in HTML, CSS, JavaScript and Python. Semi-proficient in C, C++. Can pick up languages and libraries with ease. Experience with both front-end and back-end devleopment." 
-			},
-			{
-				name: "Music Composition",
-				caption: "Arranging, composing, improvising of various genres",
-				date: "Since 2014",
-				desc: "12 years of violin and piano, self-taught guitar player. Proficient with FL Studio, and can compose music in all genres." 
 			}
 
 		]
@@ -91,29 +85,36 @@ var mainContInfo = [
 		icon: "fa-list-ol",
 		values: [
 			{
+				name: "Video Compression Research",
+				caption: "Compression through multi-dimensional transform analysis.",
+				date: "Since 2018",
+				desc: "Personal research into new compression techniques through extended applications of wave transforms, spatial and temporal data rearrangement, and component analysis."
+			},
+			{
 				name: "VR Arm Tracking Device",
-				caption: "Virtual reality hardware creation",
+				caption: "Virtual reality hardware development",
 				date: "2016",
 				desc: "Arm tracking done through gyroscope IMUs, with 9 degrees of freedom. A testing game was created to demonstrate tracking capabilities." 
 			},
 			{
-				name: "Hourglass",
-				caption: "Collaborative School-Wide Online Planner",
+				name: "Haptic Feedback Through Wave Interference",
+				caption: "Mathematical investigation of applications of wave interference",
 				date: "2017",
-				desc: "Online planning web app designed for academic use. Enabled users to have a collaborative planner specific to individual classes and teachers. " 
+				desc: "A mathematical proof and experimentation of controllable wave interference to induce correct superposition. Explored multiple applications including a possibility of simulating highly accurate haptic feedback." 
 			},
 			{
 				name: "BinBin",
-				caption: "Personal Cloud Web App",
+				caption: "Cloud storage web interface application",
 				date: "2016",
-				desc: "Personal cloud database web app created to ease file downlading and storage for personal servers." 
+				desc: "Cloud database web app created to ease file downloading and storage for servers, with accounts and sharing systems." 
 			},
 			{
-				name: "Haptic Feedback Through Wave Interference",
-				caption: "Mathematical Investigation of Applications of Wave Interference",
+				name: "Hourglass",
+				caption: "Collaborative school-wide online planner",
 				date: "2017",
-				desc: "A mathematical proof and experimentation of controllable wave interference to induce correct superposition. Explored multiple applications including a possibility of simulating highly accurate haptic feedback." 
+				desc: "Online planning web app designed for academic use. Enabled users to have a collaborative planner specific to individual classes and teachers. " 
 			}
+
 		]
 	}
 ];

@@ -29,7 +29,7 @@ h3 {
 	overflow-x: hidden;
 	overflow-y: auto;
 	display: grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 3fr 7fr;
 	height: 100%;
 	width: 100%;
 }
@@ -69,7 +69,7 @@ h3 {
 }
 
 #sidebar .midCont .subsection {
-		padding: 0 0 10% 10%;
+	padding: 0 0 10% 10%;
 }
 
 #sidebar .midCont .subsection h2 {
@@ -81,8 +81,8 @@ h3 {
 #sidebar .midCont .subsection .subValue {
 	display: grid;
 	padding: 2.5% 0 2.5% 0;
-	grid-template-columns: 15% 75%;
-	grid-template-rows: 50% 50%;
+	grid-template-columns: 15fr 75fr;
+	grid-template-rows: 1fr 1fr;
 }
 
 #sidebar .midCont .subsection div:nth-child(2) {
@@ -115,8 +115,8 @@ h3 {
 #mainCont .midCont .subsection {
 	padding: 0 10% 5% 10%;
 	display: grid;
-	grid-template-columns: 10% 90%;
-	grid-template-rows: 100%;
+	grid-template-columns: 1fr 9fr;
+	grid-template-rows: 1fr;
 }
 
 #mainCont .midCont .subsection .subCircle {
@@ -146,8 +146,8 @@ h3 {
 	padding: 2.5% 0 2.5% 0;
 	display: grid;
 	grid-column: 2;
-	grid-template-columns: 20% 80%;
-	grid-template-rows: 100%;
+	grid-template-columns: 2fr 8fr;
+	grid-template-rows: 1fr;
 }
 
 #mainCont .midCont .subValue h3:nth-child(1) {
